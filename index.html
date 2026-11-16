@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Julian Villarreal | Product Designer</title>
+  <style>
+    :root {
+      --bg: #fafafa;
+      --card: #ffffff;
+      --text: #18181b;
+      --muted: #52525b;
+      --accent: #2563eb;
+      --border: #e4e4e7;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 2rem 1.25rem;
+    }
+    .container { max-width: 900px; margin: 0 auto; }
+    header { padding: 3rem 0 2.5rem; border-bottom: 1px solid var(--border); }
+    h1 { font-size: 2.25rem; letter-spacing: -0.02em; margin-bottom: 0.5rem; }
+    .subtitle { font-size: 1.15rem; color: var(--muted); max-width: 650px; }
+    .projects { display: grid; gap: 2rem; margin-top: 2.5rem; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    }
+    .tag {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--accent);
+      background: #eff6ff;
+      padding: 0.25rem 0.65rem;
+      border-radius: 999px;
+      margin-bottom: 0.75rem;
+    }
+    h2 { font-size: 1.5rem; margin-bottom: 0.75rem; }
+    p { color: var(--muted); margin-bottom: 1rem; }
+    .details {
+      background: #f4f4f5;
+      padding: 1rem 1.25rem;
+      border-radius: 8px;
+      margin: 1.25rem 0;
+      font-size: 0.95rem;
+    }
+    .details strong { color: var(--text); }
+    .btn {
+      display: inline-block;
+      background: var(--text);
+      color: #fff;
+      text-decoration: none;
+      padding: 0.65rem 1.25rem;
+      border-radius: 8px;
+      font-weight: 500;
+      font-size: 0.95rem;
+      margin-right: 0.75rem;
+      margin-top: 0.5rem;
+    }
+    .btn:hover { opacity: 0.88; }
+    .btn-outline {
+      background: transparent;
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+    footer {
+      margin-top: 4rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Julian Villarreal</h1>
+      <p class="subtitle">
+        Product Designer & Church Systems Lead crafting intuitive digital experiences for ministry teams, volunteers, and congregants.
+      </p>
+    </header>
+
+    <main class="projects">
+      <!-- Project 1: Journey Church Website -->
+      <article class="card">
+        <span class="tag">Web Architecture & Design System</span>
+        <h2>Journey Church Website (myjourneyrgv.com)</h2>
+        <p>
+          End-to-end UX/UI design and front-end architecture for Journey Church's primary digital front door, serving first-time visitors, congregants, and ministry leaders.
+        </p>
+        <div class="details">
+          <p><strong>The Problem:</strong> Visitors and members needed fast, mobile-first access to service times, Next Steps, and event registration without cluttered navigation.</p>
+          <p style="margin-bottom:0;"><strong>Design Approach:</strong> Built reusable UI components, clear visual hierarchy, and responsive layouts tailored for Sunday-morning mobile traffic.</p>
+        </div>
+        <a href="https://myjourneyrgv.com" target="_blank" rel="noopener" class="btn">Visit Live Website &rarr;</a>
+      </article>
+
+      <!-- Project 2: Custom Church Operations Web App -->
+      <article class="card">
+        <span class="tag">Internal Tooling & Workflow UX</span>
+        <h2>Church Operations & Check-In Web App</h2>
+        <p>
+          Custom-built web application designed to streamline Sunday-morning volunteer workflows, Kids Check-In, and internal team coordination.
+        </p>
+        <div class="details">
+          <p><strong>The Problem:</strong> High-pressure Sunday transitions created bottlenecks for volunteers and staff managing check-ins and team requests.</p>
+          <p style="margin-bottom:0;"><strong>Design Approach:</strong> Partnered directly with ministry leaders to map user flows, simplify form inputs, and design high-clarity status states for rapid volunteer adoption.</p>
+        </div>
+        <a href="https://script.google.com/a/macros/myjourneyrgv.com/s/AKfycbw2NoyoRA48sqicsDZr4xZ2MKyj6h1_gDsk9oDt4XbZ4nQTJmu6aoxHtFpt1qZEADDC7Q/exec" target="_blank" rel="noopener" class="btn">Launch Web App &rarr;</a>
+      </article>
+    </main>
+
+    <footer>
+      <p>Julian Villarreal &bull; Palmview, TX &bull; julianjrvillarreal@gmail.com</p>
+    </footer>
+  </div>
+</body>
+</html>
